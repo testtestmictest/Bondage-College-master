@@ -79,6 +79,7 @@ function CheatInventory() {
 	if ((KeyPress == 83) || (KeyPress == 115)) PlayerAddInventory("SleepingPill", 1);
 	if ((KeyPress == 84) || (KeyPress == 116)) PlayerAddInventory("TapeGag", 1);
 	if ((KeyPress == 86) || (KeyPress == 118)) PlayerAddInventory("VibratingEgg", 1);
+	if ((KeyPress == 80) || (KeyPress == 112)) PlayerAddInventory("PantieGag", 1);
 }
 
 // Cheats that are specific to the player's dorm room
