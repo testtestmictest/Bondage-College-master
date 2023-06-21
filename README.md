@@ -1,6 +1,6 @@
 # Bondage College
 
-!!!caution this is a practice translate version (chinese)
+!!!caution this is a practice translate version (chinese) and i cover the origin English version so it will be initial in chinese !!!
 
 Welcome to the Bondage College! 
 
