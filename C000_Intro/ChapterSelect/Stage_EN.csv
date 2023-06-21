@@ -1,7 +1,7 @@
 Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
 0,0,0,,新生入學,,0,0,0,"LoadChapter(""C001_BeforeClass"")"
 0,0,0,,繼續學業,,0,0,0,LoadScreen()
-0,0,0,,Select Chapter,"選擇章節.|如果你從未玩過，請從第一章開始.",10,0,0,
+0,0,0,,選擇章節,"選擇章節.|如果你從未玩過，請從第一章開始.",10,0,0,
 0,0,0,,更換語言,,30,0,0,
 0,0,0,,製作組,對所有在遊戲製作有貢獻的人|致上最高的感謝.,0,0,0,RollCredits()
 10,0,0,,Chapter 1|上課前,,10,0,0,"LoadChapter(""C001_BeforeClass"")"
