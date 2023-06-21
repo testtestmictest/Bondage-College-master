@@ -1,51 +1,51 @@
 Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
-0,0,0,,"Yes, it's my first day here.",Welcome then!  I'm Amanda.,10,0,0,
-0,0,0,,"Yes, a first day in a new|school is always scary.","It will be fine.  I'm Amanda, welcome.",10,0,-1,
-0,0,0,,You look like|the teacher's pet.,"Errrr... Well...  I...|I'm Amanda, welcome.",10,-1,1,
-0,0,0,,Why do you care?,"Oh!  No reason.  I'm Amanda, welcome.",10,-1,0,
-0,0,0,SidneyInBondage,I bet you would also|look adorable all tied up.,"(She blushes red.)|You think?  I'm Amanda, nice to meet you.",10,0,1,
-0,0,0,SidneyInBondage,You better behave or you|will end up like her.,"Yes, yes, of course.  I'm Amanda.|(She bows her head and checks the floor.)",10,-1,2,
-10,0,0,,Tell me about this college.,It was founded a century ago by nuns.|Now it's a renown all girl college.,20,0,0,
-10,0,0,,What class are we|taking this morning?,Math!  My favorite!  Wait until you meet our teacher.,20,0,0,
-10,0,0,,I heard really good things|about this academy.,"You heard right, this place is wonderful.",20,1,0,
-10,0,0,,I hope it will be a quick|class so we can run out.,I'm not sure this is the right attitude to learn.,20,-1,0,
-20,0,0,,I like your hair.,"(She giggles and blushes.)|You're nice, now get ready, the class will start soon.",30,1,0,
-20,0,0,,You sound fascinated by|this stupid school.,Mmh (She turns around and stops talking),50,-1,0,
-20,0,0,,"Don't plan anything for|lunch, I'll buy you diner.",Really?  (giggles)|Let's focus on the class for now.,30,0,1,
-20,0,0,,Could you please show|me around after class?,Maybe I will.|But get ready for class first.,30,0,-1,
-30,0,0,,"Yes, let's focus|on today's class.",Well said.,50,1,0,
-30,0,0,,"Class, class, class.|You're so boring.",Oh!  Sorry.  (She turns around and stops talking),50,-1,0,
-30,1,0,,"Careful, the black haired|girl is starring at you.","Oh lord!  Thanks for the warning.|It's the first time I see her bag, I wonder what's in it.",40,1,0,
-40,1,0,,"Don't worry, if she cause|trouble, I will protect you.",You would?  This is great!|But let's focus on the class for now.,50,0,1,
-40,1,0,,"Maybe you should tell|the teacher, she's scary.",Alert the teacher... I don't know.|Let's focus on today's class for now.,50,0,-1,
-40,1,0,SidneyInBondage,"There were ropes in the|bag.  She's ""wearing"" them.",Hahaha!  I can see that.|But should you release her before the class begins?,50,1,0,
-200,0,0,BondageNotConfronted,Would you like to|be tied up now?,What?  No!  The class is starting in a few minutes!|Please put back these ropes.,200,-1,0,ConfrontBondage()
-200,0,0,BondageNotConfronted,"Admit it girl, you would|love to be tied up.",Oh my god!  (She blushes red.)|No... Y... No... the class is starting really soon.,200,-1,1,ConfrontBondage()
-200,0,0,StopRopeSubAllowed,"I love bondage,|could you tie me up?","Oh!  You're a submissive, maybe after school.|(She winks.) What were we talking about newcomer?",200,0,-2,StopRopeSub()
-200,0,0,,We can use them later.|(Hide the ropes.),Later? (She looks at you curiously.)|So what were we talking about newcomer?,200,0,0,StopRope()
-200,0,2,,(Grab her and remove|her uniform.)ADD_MINUTES:1,Oh lord no!  Not again!|(She tries to defend herself but fails.),220,0,0,Strip()
-200,0,4,,"Subbie girl, remove your|uniform now.ADD_MINUTES:1",N... Errr... Yes Miss...|(She submissively removes her top and skirt.),220,0,0,
-220,0,0,,(Tie her.)ADD_MINUTES:1,(You wrap the ropes around her body and tie her|arms behind her back.  She moans quietly.),230,0,0,Tie()
-220,0,0,,Put back your clothes.ADD_MINUTES:1,Oh lord yes!  This is embarrassing.,200,0,0,
-230,0,0,,(Turn her.),What?  Oh lord!  What are you doing?|(You force her to turn around.),240,0,0,
-230,0,0,,(Untie her.)ADD_MINUTES:1,(You slowly untie her) Thank you so much!|Is it alright if I put my clothes back on?,220,0,0,Untie()
-230,0,0,,(Tickle her.)ADD_MINUTES:1,(She blushes and can't stop laughing.)|Hey!  Haaahahahaha!  You're funny.,230,0,0,Tickle()
-230,1,0,,(Kiss her.)ADD_MINUTES:1,Another kiss?|(She blushes red and smiles at you.),230,0,0,Kiss()
-230,0,0,SidneyInBondage,(Make her hug Sidney.)ADD_MINUTES:1,(Both girls are forced to hug and rub each other.)|Oh my!  This is not appropriated.,250,0,0,
-230,0,0,,You look like an|angel in bondage.,(She giggles and smiles at you.),230,0,0,
-230,0,0,,"If I untie you, can I tie|you up later?ADD_MINUTES:1",Ooooh!  Yes!  Of course!|(You untie her and shake her hand.),300,1,1,Untie()
-230,0,0,,"If I untie you, will you|tie me later?ADD_MINUTES:1","Hehehe, alright.|(You untie her and shake her hand.)",300,1,-2,Untie()
-240,0,0,,(Turn her.),(You force her to turn around.)|Oooohh!  I actually prefer seeing you.,230,0,0,
-240,0,0,,(Untie her.)ADD_MINUTES:1,(You slowly untie her) Thank you so much!|Is it alright if I put my clothes back on?,220,0,0,Untie()
-240,0,0,,(Tickle her.)ADD_MINUTES:1,(She blushes and can't stop laughing.)|Hey!  Haaahahahaha!  You're funny.,240,0,0,Tickle()
-240,0,0,,(Spank her.)ADD_MINUTES:1,(You spank her again but she seems to take it better.)|Stop that!,240,0,0,Spank()
-240,0,0,,You have a nice|butt you know?,Really?  (She blushes red.),240,0,0,
-240,0,0,,"If I untie you, can I tie|you up later?ADD_MINUTES:1",Ooooh!  Yes!  Of course!|(You untie her and shake her hand.),300,1,1,Untie()
-240,0,0,,"If I untie you, will you|tie me later?ADD_MINUTES:1","Hehehe, alright.|(You untie her and shake her hand.)",300,1,-2,Untie()
-250,0,0,,(Separate them.),Thank you.  That was embarrassing.,230,0,0,
-250,0,0,,(Force them to kiss.)ADD_MINUTES:1,Another kiss?  This is gross!|(You push them together for another kiss.),260,0,0,ForceKiss()
-250,0,0,,You two make a nice|bondage couple.,(They both stare at you.),250,0,0,
-260,0,0,,(Separate them.),Thank you.  That was embarrassing.,230,0,0,
-260,0,0,,(Stop the kisses.),"No offense Sidney,|but you're not my type.",250,0,0,
-260,0,0,,Love is in the air!,Hey!  That's not funny.|(She pulls her tongue at you.),260,0,0,
-260,2,0,,Can I also get a kiss?,"Hehehe, ok.|(She turns around to kiss you.)",260,0,0,
+0,0,0,,"是的，這是我在這裡的第一天.",歡迎你！我叫做Amanda.,10,0,0,
+0,0,0,,"是的，這是我在這裡的第一天|新的學校一向很可怕.","會沒事的.  歡迎你！我叫做Amanda.",10,0,-1,
+0,0,0,,你看起來像是|老師的寶貝.,"Errrr... 好的...  我...|歡迎你 我叫做Amanda.",10,-1,1,
+0,0,0,,你為什麼在乎?,"喔!  沒什麼.  歡迎你 我叫做Amanda.",10,-1,0,
+0,0,0,SidneyInBondage,我敢打賭你|被綁起來也會很可愛.,"(她 臉紅了.)|你這麼想嗎?  我叫做Amanda, 很高興認識你.",10,0,1,
+0,0,0,SidneyInBondage,你最好表現得好一點否則|你會像她一樣的下場.,"會的, 會的, 那是當然.  我叫做Amanda.|(她低下頭，看著地板.)",10,-1,2,
+10,0,0,,跟我說說這間大學的事.,這所學院是一個世紀前由修女創辦的.|現在，它是一所聲譽卓著的女子學院.,20,0,0,
+10,0,0,,早上的這堂|課是什麼?,數學!  我的最愛!  等等你會見到我們的老師.,20,0,0,
+10,0,0,,我聽說了很多這|學院的好話.,"沒錯, 這地方真的很美好.",20,1,0,
+10,0,0,,我希望這堂課|可以快點結束.,我不確定這是個適當的學習態度.,20,-1,0,
+20,0,0,,我喜歡你的頭髮.,"(她臉紅著傻笑.)|你人真好, 現在做好準備吧 快上課了.",30,1,0,
+20,0,0,,你聽起來對這所|笨學校很著迷.,Mmh (她別過頭去，不再說話),50,-1,0,
+20,0,0,,"午餐不用計劃了|我請你吃晚餐吧.",真的?  (傻笑著)|現在我們專心在課程上吧.,30,0,1,
+20,0,0,,你下課可以帶|我到處轉轉?,也許吧.|但我要先準備上課.,30,0,-1,
+30,0,0,,"好, 我們專心在|今天的課程上吧.",說的對.,50,1,0,
+30,0,0,,"上課, 上課, 上課.|你真的很無聊.",喔!  抱歉.  (她別過頭去，不再說話),50,-1,0,
+30,1,0,,"小心點, 那個黑髮女孩|正盯著你.","喔我的天!  謝謝你的警告.|這是我第一次看到她帶包包, 真好奇裡面會有什麼.",40,1,0,
+40,1,0,,"別擔心, 如果她鬧事|我會保護你的.",你會?  這真是太好了!|但現在我們專心在課程上吧.,50,0,1,
+40,1,0,,"她真可怕|或許你應該告訴老師.",告狀... 我不確定.|現在我們專心在課程上吧.,50,0,-1,
+40,1,0,SidneyInBondage,"她的包包裡有繩子.|  而她正穿著它,哈哈哈!  我看到了.|但你或許應該在上課前鬆綁她?,50,1,0,
+200,0,0,BondageNotConfronted,妳現在想|被綁起來嗎?,什麼?  不!  課程就要開始了!|請把那些繩子收起來.,200,-1,0,ConfrontBondage()
+200,0,0,BondageNotConfronted,"承認吧, 你會喜歡|被綁起來的.",我的天啊!  (她臉紅了.)|不... 是... 不... 真的快要上課了.,200,-1,1,ConfrontBondage()
+200,0,0,StopRopeSubAllowed,"我喜歡緊縛,|你可以把我綁起來嗎?","喔!  你是個M 或許放學後.|(她眨眼.) 我們剛剛在談論什麼來著，新來的朋友?",200,0,-2,StopRopeSub()
+200,0,0,,我們待會會用到.|(藏起繩子.),待會? (她好奇地看著你.)|我們剛剛在談論什麼來著，新來的朋友?,200,0,0,StopRope()
+200,0,2,,(抓住她並|脫下她的制服.)ADD_MINUTES:1,喔我的老天 不!  不要再來了!|(她常是防衛自己但失敗了.),220,0,0,Strip()
+200,0,4,,"好女孩, 現在脫掉|你的制服.ADD_MINUTES:1",不... Errr... 是的女士...|(她順從的脫掉上衣和裙子.),220,0,0,
+220,0,0,,(綁她.)ADD_MINUTES:1,(妳把繩子纏繞在她身上並|把她的手綁在身後.  她小聲的呻吟著.),230,0,0,Tie()
+220,0,0,,穿上你的衣服.ADD_MINUTES:1,我的天 是!  這真是尷尬.,200,0,0,
+230,0,0,,(把她轉過去.),什麼?  我的老天!  你在幹嘛?|(你強迫她轉身.),240,0,0,
+230,0,0,,(放開她.)ADD_MINUTES:1,(你慢慢的鬆綁她) 太謝謝你了!|我可以把衣服穿回去了吧?,220,0,0,Untie()
+230,0,0,,(搔癢她.)ADD_MINUTES:1,(她臉紅著不停大笑.)|嘿!  Haaahahahaha!  你太有趣了.,230,0,0,Tickle()
+230,1,0,,(親吻她.)ADD_MINUTES:1,另一個親吻?|(她臉紅著對你微笑.),230,0,0,Kiss()
+230,0,0,SidneyInBondage,(讓她抱著 Sidney.)ADD_MINUTES:1,(兩個女孩被迫抱著彼此並互相磨蹭.)|天啊!  這不合適吧.,250,0,0,
+230,0,0,,你被綁著看起來|就像天使.,(她對你傻笑著.),230,0,0,
+230,0,0,,"如果我放開你, 我待會可以|再把你綁起來嗎?ADD_MINUTES:1",喔!  可以!  當然可以!|(你放開她並互相握了手.),300,1,1,Untie()
+230,0,0,,"如果我放開你, 你待會可以|把我綁起來嗎?ADD_MINUTES:1","Hehehe, 好吧.|(你放開她並互相握了手.)",300,1,-2,Untie()
+240,0,0,,(把她轉過去.),(你強迫她轉身.)|喔!  實際上我更寧願看著你.,230,0,0,
+240,0,0,,(放開她.)ADD_MINUTES:1,(你慢慢的鬆綁她) 太謝謝你了!|我可以把衣服穿回去了吧?,220,0,0,Untie()
+240,0,0,,(搔癢她.)ADD_MINUTES:1,(她臉紅著不停大笑.)|嘿!  Haaahahahaha!  你太有趣了.,240,0,0,Tickle()
+240,0,0,,(打她屁股.)ADD_MINUTES:1,(你再次打了她的屁股但她看起來更能接受了.)|停下!,240,0,0,Spank()
+240,0,0,,你有個漂亮的|屁股你知道嗎?,真的?  (她臉紅了.),240,0,0,
+240,0,0,,"如果我放開你, 我待會可以|再把你綁起來嗎?ADD_MINUTES:1",喔!  可以!  當然可以!|(你放開她並互相握了手.),300,1,1,Untie()
+240,0,0,,"如果我放開你, 你待會可以|把我綁起來嗎?ADD_MINUTES:1","Hehehe, 好吧.|(你放開她並互相握了手.)",300,1,-2,Untie()
+250,0,0,,(分開他們.),謝謝你.  剛剛那真是太尷尬了.,230,0,0,
+250,0,0,,(強迫他們接吻.)ADD_MINUTES:1,另一個親吻?  這太噁心了!|(你把他們推在一起讓他們接吻.),260,0,0,ForceKiss()
+250,0,0,,你們真是對|漂亮的緊縛夥伴.,(他們都盯著你.),250,0,0,
+260,0,0,,(分開他們.),謝謝你.  剛剛那真是太尷尬了.,230,0,0,
+260,0,0,,(停止接吻.),"無意冒犯 Sidney,|但你真的不是我的菜.",250,0,0,
+260,0,0,,空氣中瀰漫著愛情的味道!,嘿!  這不好笑.|(她對你吐舌頭.),260,0,0,
+260,2,0,,我也可以親一下嗎?,"Hehehe, 好.|(她轉過頭親你.)",260,0,0,
