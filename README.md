@@ -1,5 +1,7 @@
 # Bondage College
 
+!!!caution this is a practice translate version (chinese)
+
 Welcome to the Bondage College! 
 
 This project is a Javascript/HTML5 game that contains adult themes such as BDSM.
