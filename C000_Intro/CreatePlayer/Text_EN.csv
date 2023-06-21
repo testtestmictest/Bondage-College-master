@@ -1,10 +1,10 @@
 Tag,Content
-EnterName,Enter a name and select a skill for your character.
-ValidChars,You can only use letters & spaces.
-Validate,Start the game
-Skill0,No skill
-Skill1,Arts
-Skill2,Fighting
-Skill3,Rope Mastery
-Skill4,Sports
-Skill5,Seduction
+EnterName,輸入名字 並幫你的角色選個技能.
+ValidChars,你只可以輸入英文與空白.
+Validate,開始上課
+Skill0,無技能
+Skill1,藝術
+Skill2,格鬥
+Skill3,繩藝
+Skill4,運動
+Skill5,魅力
