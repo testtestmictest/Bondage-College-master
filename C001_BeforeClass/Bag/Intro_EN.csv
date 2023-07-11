@@ -1,5 +1,5 @@
 Stage,LoveReq,SubReq,VarReq,IntroText,Image
-0,0,0,,The school bag hangs unattended on the girl's back.|The straps are in the sleeves.,BagClosed.jpg
-10,0,0,,The school bag straps are hanging loose.|You can see some ropes in the bag.,BagOpen.jpg
-20,0,0,,The school bag straps are hanging loose.|There's nothing interesting left in the bag.,BagOpen.jpg
-30,0,0,,The bag is closed and well-guarded.|You'll need to speak with the bag owner.,BagClosed.jpg
+0,0,0,,書包被隨意地掛在女孩的背後.|帶子是扣上的.,BagClosed.jpg
+10,0,0,,書包的帶子鬆垮的懸在外面.|你可以看到包裡有一些繩子.,BagOpen.jpg
+20,0,0,,書包的帶子鬆垮的懸在外面.|包裡沒有什麼有趣的東西了.,BagOpen.jpg
+30,0,0,,書包被闔上並且嚴加保管.|你必須和書包主人談談.,BagClosed.jpg

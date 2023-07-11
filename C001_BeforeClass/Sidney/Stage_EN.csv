@@ -1,58 +1,58 @@
 Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
-0,0,0,,I simply want to|introduce myself.,"Mmmh, hello, I'm Sidney.|(She turns and stares at the other girl)",10,0,0,
-0,0,0,,"Girl, are you always that|rude with strangers?","I guess not, sorry about that, I'm Sidney.|(She turns and stares at the other girl)",10,0,1,
-0,0,0,,"Please don't be angry at|me, I'm new here.","New and pathetic, you won't survive a day.|(She turns and stares at the other girl)",10,-1,-1,
-0,0,0,,"You look pretty strong,|I'm glad to meet you.","Yes!  I'm the toughest here, I'm Sidney.|(She turns and stares at the other girl)",10,1,0,
-0,0,0,,What a shitty attitude!,You better shut up if you don't want a broken nose.|(She turns and stares at the other girl),10,-2,0,
-0,0,0,AmandaInBondage,"Yep, nerds will know that|we rule around here.","Oh fuck yeah!  I'm Sidney, glad to meet you.",20,2,0,
-0,0,0,AmandaInBondage,"If you don't want to end up|like her, you better obey.","(She looks down and stays quiet for a few second.)|Yes, as long as that nerd gets punished it's fine.",20,0,2,
-10,0,0,,Something's wrong?,"Yes, that fucking brunette and|her stupid friend is what's wrong.",20,0,0,
-10,0,0,,Why are you starring|at that girl?,That's none of your concerns.,20,0,0,
-10,0,0,,Stop starring at her!,Hey!  Don't give me orders!,20,-1,1,
-20,0,0,,You sound pretty angry.,And why do you care?,30,0,0,
-20,0,0,,You really seem to|hate that nerd girl.,Oh hell yes!  She's a fucking pain.|Someday I'll have my revenge.,30,1,0,
-20,0,0,,You sure are hot|blooded.  I like it.,Yep!  Now let me get ready for class.,40,1,0,
-20,0,0,,You really have an|attitude problem.,Shut up!|(She turns around and ignores you.),40,-1,0,
-20,1,0,,You need help to get|that girl in trouble?,Oh hell Yeah!  I have some ropes|in my bag.  We'll get her after class.,40,1,0,
-30,0,0,,You sure are hot|blooded.  I like it.,Yep!  Now let me get ready for class.,40,1,0,
-30,0,0,,You really have an|attitude problem.,Shut up!|(She turns around and ignores you.),40,-1,0,
-30,1,0,,You need help to get|that girl in trouble?,Oh hell Yeah!  I have some ropes|in my bag.  We'll get her after class.,40,1,0,
-40,-2,0,,Bitch!  Do you|want to fight?,,40,-1,0,Fight()
-100,0,0,,Why do you have|ropes in your bag?,That's none of your business.|(She closes the bag.),20,-1,0,
-100,0,0,,Are you going climbing|after school?,Yes!  Now gimme that!|(She closes the bag.),20,-1,0,
-100,0,0,,Are you planning on|kidnapping someone?,"Mmmh, why do you ask?",110,0,-1,
-100,0,0,,So you're a kinky girl|who likes being tied up?,You know anything about bondage?,110,0,1,
-110,0,0,,What are you planning?|I'm interested.,Let's talk after the class then.|(She closes the bag.),20,1,0,
-110,0,0,,I'm not interested.,Fine!  I don't care.|(She closes the bag.),20,0,0,
-110,0,0,,This is wrong!|I will tell the teacher.,,40,-2,0,Fight()
-200,0,0,BondageNotConfronted,The ropes were hanging|loose from your bag.,Liar!  Give me my ropes back.,200,0,0,ConfrontBondage()
-200,0,0,BondageNotConfronted,"If you carry rope, it means|you want to be tied up.",(She blushes.)  No!  Not at all!|Now give me back my ropes.,200,0,1,ConfrontBondage()
-200,0,0,BondageNotConfronted,"I'm so sorry.  I love ropes,|could you tie me up?","You're pathetic, soon you will lick my boots.|Now give me my ropes. (She takes the ropes.)",300,0,-2,GiveRope()
-200,0,0,,Here are your ropes. |Hide them better.,Good!  Now leave me alone.|(She takes the rope and turns around.),300,1,0,GiveRope()
-200,0,0,,Let's talk some more.,Mmmh.  Fine.|What were we talking about?,200,0,0,StopRope()
-200,0,2,,(Strip and tie her.)ADD_MINUTES:1,(You pin her again and tie her wrist behind her back.|She trashes and kicks you but finally submits.),220,0,0,Tie()
-200,0,4,,You know you will submit.|(Strip and tie.)ADD_MINUTES:1,(She reluctantly removes her uniform|and gives you her wrist to tie them.),220,0,0,TieSub()
-200,0,0,,"If you want them,|come and fight for them.",,40,-2,0,Fight()
-220,0,0,,(Turn her.),Fuck!  What are you doing now?|(You force her to turn around.),230,0,0,
-220,0,0,,(Untie her.)ADD_MINUTES:1,"(You untie her arms while she swears at you.|Once untied, she pushes you away in anger.)",200,0,0,Untie()
-220,0,0,,(Tickle her.)ADD_MINUTES:1,I said I'm not ticklish!|(She makes an angry look at you.),220,0,0,Tickle()
-220,1,0,,(Kiss her.)ADD_MINUTES:1,(She blankly stares at you after|the kiss and remain speechless.),220,0,0,
-220,0,0,AmandaInBondage,(Make her hug Amanda.)ADD_MINUTES:1,(Both girls are forced to hug and rub each other.)|Fuck!  What kind of pervert are you?,240,-1,0,
-220,0,0,,These ropes fit lovingly|on your curvy body.,Oh!  Mmmmh...  Thanks...  I guess.,220,0,0,
-220,0,0,,"If I let you go, can I tie|you up later?ADD_MINUTES:1",That sounds fair.  We have a deal.|(You untie her and shake her hand.),310,1,1,Untie()
-220,0,0,,"If I let you go, will you|tie me later?ADD_MINUTES:1",Oh yeah!  Revenge will be sweet.|(You untie her and shake her hand.),310,1,-2,Untie()
-230,0,0,,(Turn her.),(You turn her back while|she stares at you furiously.),220,0,0,
-230,0,0,,(Untie her.)ADD_MINUTES:1,"(You untie her arms while she swears at you.|Once untied, she pushes you away in anger.)",200,0,0,Untie()
-230,0,0,,(Tickle her.)ADD_MINUTES:1,I said I'm not ticklish!|(She makes an angry look at you.),230,0,0,Tickle()
-230,0,0,,(Spank her.)ADD_MINUTES:1,(You spank her in front of the other students.)|Ha!  That's the best you can do?,230,0,0,
-230,0,0,,"By looking at your panties,|you are enjoying this.",Stop looking down there you pervert!,230,0,0,PantiesRemark()
-230,0,0,,"If I let you go, can I tie|you up later?ADD_MINUTES:1",That sounds fair.  We have a deal.|(You untie her and shake her hand.),310,1,1,Untie()
-230,0,0,,"If I let you go, will you|tie me later?ADD_MINUTES:1",Oh yeah!  Revenge will be sweet.|(You untie her and shake her hand.),310,1,-2,Untie()
-240,0,0,,(Separate them.),Finally!  That was a stupid idea!,220,0,0,
-240,0,0,,(Force them to kiss.)ADD_MINUTES:1,"(You force them to kiss, Sidney looks furious.)|Amanda, if you use your tongue I will cut it.",250,0,0,KissAmanda()
-240,0,0,,You two make a nice|bondage couple.,(They both stare at you.),240,0,0,
-250,0,0,,(Separate them.),Finally!  That was a stupid idea!,220,0,0,
-250,0,0,,(Stop the kisses.),Admit it!  I'm better than that stupid blond.|(She tries to intimidate Amanda who looks away.),240,0,0,
-250,0,0,,Love is in the air!,You will fly in the air when I get out.,250,0,0,
-250,2,0,,Can I also get a kiss?,"Mmmmmh, sure, why not?|(She turns around and kiss you.)",250,0,0,
-300,-2,0,,Bitch!  Do you|want to fight?,,40,-1,0,Fight()
+0,0,0,,我只是想自我介紹。,"嗯…… 你好，我是 Sidney.|（她轉過身去盯著其他女孩。）",10,0,0,
+0,0,0,,"小鬼，你對陌生人|都這麼粗魯嗎？","我想不是的，抱歉，我是 Sidney。|（她轉過身去盯著其他女孩。）",10,0,1,
+0,0,0,,"請不要生氣，|我是新来的。","新来而又可悲的。你在這活不過一天。|（她轉過身去盯著其他女孩。）",10,-1,-1,
+0,0,0,,"你看上去真強壯，|很高興認識你。","沒錯！我就是這裡最強悍的。我叫 Sidney。|（她轉過身去盯著其他女孩。）",10,1,0,
+0,0,0,,你什麼態度！,如果你不想流鼻血的話就給我閉嘴。|（她轉過身去盯著其他女孩。）,10,-2,0,
+0,0,0,AmandaInBondage,"是的，書呆子們將會|知道這裡誰說了算。","太他媽對了！我是 Sidney，很高興認識你。",20,2,0,
+0,0,0,AmandaInBondage,"如果你不想和她一樣，|你最好聽話點。","（她低下頭沉默了幾秒。）|我會的，只要那個書呆子受到懲罰就没問题。",20,0,2,
+10,0,0,,有什麼問題？,"當然有，那個該死的棕色頭髮跟她的朋友就是問題。",20,0,0,
+10,0,0,,你為什麼盯著那個女孩？,這不關你的事。,20,0,0,
+10,0,0,,别再盯著她了！,喂！别給我下命令！,20,-1,1,
+20,0,0,,你看上去很生氣。,你為什麼在乎這個？,30,0,0,
+20,0,0,,你看上去真的很|討厭那個書呆子女孩。,噢，沒錯！她是一個該死的令人頭痛的問題。|我遲早會復仇的。,30,1,0,
+20,0,0,,你真的很熱血。我喜歡。,沒錯！現在讓我做好上課準備。,40,1,0,
+20,0,0,,你的態度真的很有問题。,閉嘴！|（她轉過身去並且無視你。）,40,-1,0,
+20,1,0,,你需要幫忙讓那個|女孩陷入麻煩嗎？,噢太棒了！我包裡有一些繩子，|下課後我們再對付她。,40,1,0,
+30,0,0,,你真的很熱血。我喜歡。,沒錯！現在讓我做好上課準備。,40,1,0,
+30,0,0,,你的態度真的很有問题。,閉嘴！|（她轉過身去並且無視你。）,40,-1,0,
+30,1,0,,你需要幫忙讓那個|女孩陷入麻煩嗎？,噢太棒了！我包裡有一些繩子，|下課後我們再對付她。,40,1,0,
+40,-2,0,,婊子！你想打架嗎？,,40,-1,0,Fight()
+100,0,0,,你的包裡為什麼有繩子？,這不關你的事。|（她把書包合上了。）,20,-1,0,
+100,0,0,,你放學後要去爬山嗎？,是！現在把它還我！|（她把書包合上了。）,20,-1,0,
+100,0,0,,你打算綁架某個人？,"呃…… 你為什麼這麼問？",110,0,-1,
+100,0,0,,所以你是一個古怪的|喜歡被綁起來的女孩？,你知道捆綁？,110,0,1,
+110,0,0,,你有什麼打算？|我對此很感興趣。,我們下課後再說。|（她把書包合上了。）,20,1,0,
+110,0,0,,我沒有興趣。,很好！我不在乎。|（她把書包合上了。）,20,0,0,
+110,0,0,,這是不對的！|我要告訴老師。,,40,-2,0,Fight()
+200,0,0,BondageNotConfronted,那些繩子從你|包裡垂下来。,騙人！把我的繩子還給我。,200,0,0,ConfrontBondage()
+200,0,0,BondageNotConfronted,"如果你帶著繩子，|那代表你想被綁起來。",（她臉紅了。）不！不是這樣的！|現在把繩子還來。,200,0,1,ConfrontBondage()
+200,0,0,BondageNotConfronted,"對不起。我喜歡繩子，|你能把我綁起來嗎？","你真可憐，待會就讓你舔我的靴子。|現在把繩子還來。（她拿走了繩子。）",300,0,-2,GiveRope()
+200,0,0,,這是你的繩子，|把它們藏好。,很好！現在讓我一個人靜靜。|（她拿走了繩子並轉過身去。）,300,1,0,GiveRope()
+200,0,0,,我們聊些別的。,嗯…… 行。|我們之前聊到哪了？,200,0,0,StopRope()
+200,0,2,,(脱光並且綁住她)ADD_MINUTES:1,（你再一次牽制住她並將她的手腕綁在背後。|她一邊瘋狂掙扎一邊踢你但最終屈服了。）,220,0,0,Tie()
+200,0,4,,你知道你會屈服的。|(脱光並且綁住她) ADD_MINUTES:1,（她忍痛脱下校服並伸出手讓你綁起来。）,220,0,0,TieSub()
+200,0,0,,"如果你想要，|過來打我啊。",,40,-2,0,Fight()
+220,0,0,,(將她轉過去),靠！你現在想幹嘛？|（你強行把她轉過身。）,230,0,0,
+220,0,0,,(解開她)ADD_MINUTES:1,"（當她向你發誓後，你解開了她的手臂。|剛一解開，她就生氣地推開你。）",200,0,0,Untie()
+220,0,0,,(搔她)ADD_MINUTES:1,我說過我不怕癢！|（她生氣地看著你。）,220,0,0,Tickle()
+220,1,0,,(親她)ADD_MINUTES:1,（親吻之後，她眼神空洞地盯著你，然後一言不發。）,220,0,0,
+220,0,0,AmandaInBondage,(讓她擁抱 Amanda)ADD_MINUTES:1,（兩個女孩被強制互相擁抱並摩擦。）|靠！你怎麼這麼變態？,240,-1,0,
+220,0,0,,這些繩子完美的貼合|你身體優美的曲線。,噢！嗯…… 謝謝…… 也許……,220,0,0,
+220,0,0,,"如果我解開你，待會我能|再把你綁起来吗？ADD_MINUTES:1",聽起來很公平。 我們說好了。|（你解開她並且握了握她的手。）,310,1,1,Untie()
+220,0,0,,"如果我解開你，你待會能|把我綁起来吗？ADD_MINUTES:1",哦耶！复仇是甜蜜的。|（解開她並且握了握她的手。）,310,1,-2,Untie()
+230,0,0,,(將她轉過去),（你将她转了回来，她愤怒地瞪着你。）,220,0,0,
+230,0,0,,(解開她)ADD_MINUTES:1,"（當她向你發誓後，你解開了她的手臂。|剛一解開，她就生氣地推開你。）",200,0,0,Untie()
+230,0,0,,(搔她)ADD_MINUTES:1,我說過我不怕癢！|（她生氣地看著你。）,230,0,0,Tickle()
+230,0,0,,(扇她)ADD_MINUTES:1,（你当着其他学生的面扇了她一下。）|哈！你就只有这点能耐了？,230,0,0,
+230,0,0,,"從你的內褲來看，|你正享受著這一切。",别看下面那裏了，你這個變態！,230,0,0,PantiesRemark()
+230,0,0,,"如果我解開你，待會我能|再把你綁起来吗？ADD_MINUTES:1",聽起來很公平。 我們說好了。|（你解開她並且握了握她的手。）,310,1,1,Untie()
+230,0,0,,"如果我解開你，你待會能|把我綁起来吗？ADD_MINUTES:1",哦耶！复仇是甜蜜的。|（解開她並且握了握她的手。）,310,1,-2,Untie()
+240,0,0,,(分開她們),終於！那真是一個愚蠢的想法！,220,0,0,
+240,0,0,,(強迫她們親吻)ADD_MINUTES:1,"（你強迫她們互相親吻，Sidney 看起来相當憤怒。）|Amanda，如果你敢伸舌頭我會把它咬斷的。",250,0,0,KissAmanda()
+240,0,0,,你們兩個真是一對|漂亮的束縛夥伴。,（她們盯著你。）,240,0,0,
+250,0,0,,(分開她们),終於！那真是一個愚蠢的想法！,220,0,0,
+250,0,0,,(停止接吻),承認吧！我比那個愚蠢的金頭髮還要強！|（她嘗試嚇住望向别處的 Amanda。）,240,0,0,
+250,0,0,,空氣中瀰漫著愛的氣息！,等我出來你就會飛在空中。,250,0,0,
+250,2,0,,我也可以親一個嗎？,"嗯…… 當然，為什麼不呢？|（她轉過來親你。）",250,0,0,
+300,-2,0,,婊子！你想打架嗎？,,40,-1,0,Fight()
