@@ -58,28 +58,28 @@ function CheatActor() {
 
 // Cheats to gain a skill (from 5 to 9)
 function CheatSkill() {
-	if (KeyPress == 53) PlayerAddSkill("Arts", 1);
-	if (KeyPress == 54) PlayerAddSkill("Fighting", 1);
-	if (KeyPress == 55) PlayerAddSkill("RopeMastery", 1);
-	if (KeyPress == 56) PlayerAddSkill("Seduction", 1);
-	if (KeyPress == 57) PlayerAddSkill("Sports", 1);
+	if (KeyPress == 53) PlayerAddSkill("Arts", 10);
+	if (KeyPress == 54) PlayerAddSkill("Fighting", 10);
+	if (KeyPress == 55) PlayerAddSkill("RopeMastery", 10);
+	if (KeyPress == 56) PlayerAddSkill("Seduction", 10);
+	if (KeyPress == 57) PlayerAddSkill("Sports", 10);
 }
 
 // Cheats to add inventory (each letter represent an item)
 function CheatInventory() {
-	if ((KeyPress == 65) || (KeyPress == 97)) PlayerAddInventory("Armbinder", 1);
-	if ((KeyPress == 66) || (KeyPress == 98)) PlayerAddInventory("BallGag", 1);
-	if ((KeyPress == 67) || (KeyPress == 99)) PlayerAddInventory("Cuffs", 1);
-	if ((KeyPress == 70) || (KeyPress == 102)) PlayerAddInventory("ChastityBelt", 1);
-	if ((KeyPress == 71) || (KeyPress == 103)) PlayerAddInventory("ClothGag", 1);
-	if ((KeyPress == 75) || (KeyPress == 107)) PlayerAddInventory("CuffsKey", 1);
-	if ((KeyPress == 76) || (KeyPress == 108)) PlayerAddInventory("Collar", 1);
-	if ((KeyPress == 80) || (KeyPress == 112)) PlayerAddInventory("Crop", 1);
-	if ((KeyPress == 82) || (KeyPress == 114)) PlayerAddInventory("Rope", 1);
-	if ((KeyPress == 83) || (KeyPress == 115)) PlayerAddInventory("SleepingPill", 1);
-	if ((KeyPress == 84) || (KeyPress == 116)) PlayerAddInventory("TapeGag", 1);
-	if ((KeyPress == 86) || (KeyPress == 118)) PlayerAddInventory("VibratingEgg", 1);
-	if ((KeyPress == 79) || (KeyPress == 111)) PlayerAddInventory("PantieGag", 1);
+	if ((KeyPress == 65) || (KeyPress == 97)) PlayerAddInventory("Armbinder", 10);
+	if ((KeyPress == 66) || (KeyPress == 98)) PlayerAddInventory("BallGag", 10);
+	if ((KeyPress == 67) || (KeyPress == 99)) PlayerAddInventory("Cuffs", 10);
+	if ((KeyPress == 70) || (KeyPress == 102)) PlayerAddInventory("ChastityBelt", 10);
+	if ((KeyPress == 71) || (KeyPress == 103)) PlayerAddInventory("ClothGag", 10);
+	if ((KeyPress == 75) || (KeyPress == 107)) PlayerAddInventory("CuffsKey", 10);
+	if ((KeyPress == 76) || (KeyPress == 108)) PlayerAddInventory("Collar", 10);
+	if ((KeyPress == 80) || (KeyPress == 112)) PlayerAddInventory("Crop", 10);
+	if ((KeyPress == 82) || (KeyPress == 114)) PlayerAddInventory("Rope", 10);
+	if ((KeyPress == 83) || (KeyPress == 115)) PlayerAddInventory("SleepingPill", 10);
+	if ((KeyPress == 84) || (KeyPress == 116)) PlayerAddInventory("TapeGag", 10);
+	if ((KeyPress == 86) || (KeyPress == 118)) PlayerAddInventory("VibratingEgg", 10);
+	if ((KeyPress == 79) || (KeyPress == 111)) PlayerAddInventory("PantieGag", 10);
 }
 
 // Cheats that are specific to the player's dorm room
