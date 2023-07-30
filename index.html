@@ -241,10 +241,25 @@ function LoseFocus(event) {
 	MouseX = -1;
 	MouseY = -1;
 }
- 
+
+function confirmInput() {
+    var inputText = document.getElementById("inputBox").value;
+    if (inputText.length > 0) {
+        // 將輸入框中的值轉換為 ASCII 碼，並保存到 KeyPress 變數
+        KeyPress = inputText.charCodeAt(0);
+        if (CheatAllow) CheatKey();
+        DynamicFunction(CurrentChapter + "_" + CurrentScreen + "_KeyDown()");
+    }
+}
 </script>
 
 <body style="padding:0px; margin:0px; margin-top:1px;">
 	<canvas id="MainCanvas" width="1200" height="675" onClick="Click(event);" onTouchStart="Touch(event);" onMouseMove="MouseMove(event);" onMouseLeave="LoseFocus(event);" style="border:1px solid #000000; display:block; margin:0px; outline:none;"></canvas>
+	
+	<div>
+        <input type="text" id="inputBox" />
+        <button onclick="confirmInput()">確認</button>
+    </div>
+
 </body>
 </html>
