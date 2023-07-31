@@ -262,6 +262,11 @@ function stopClickEvent(event) {
 function enableCanvasClick() {
     canvasClickable = true;
 }
+function TouchEnd(event) {
+    if (canvasClickable) {
+        Touch(event);
+    }
+}
 </script>
 
 <body style="padding:0px; margin:0px; margin-top:1px;">
@@ -269,7 +274,6 @@ function enableCanvasClick() {
         <input type="text" id="inputBox" />
         <button onclick="confirmInput()">確認</button>
     </div>
-    <canvas id="MainCanvas" width="1200" height="675" onClick="if(canvasClickable) Click(event);" onTouchStart="if(canvasClickable) Touch(event);" onMouseMove="MouseMove(event);" onMouseLeave="LoseFocus(event);" style="border:1px solid #000000; display:block; margin:0px; outline:none;"></canvas>
-
+    <canvas id="MainCanvas" width="1200" height="675" onClick="if(canvasClickable) Click(event);" onTouchStart="if(canvasClickable) Touch(event);" onTouchEnd="if(canvasClickable) TouchEnd(event);" onMouseMove="MouseMove(event);" onMouseLeave="LoseFocus(event);" style="border:1px solid #000000; display:block; margin:0px; outline:none;"></canvas>
 </body>
 </html>
