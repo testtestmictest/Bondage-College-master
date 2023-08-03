@@ -262,12 +262,58 @@ function triggerCanvasFunction() {
 			PlayerAddSkill("Sports", 10)
             DynamicFunction(CurrentChapter + "_" + CurrentScreen + "_SpecificFunction()");
         }
+function triggerCanvasFunction2() {
+            // 在這裡呼叫您想觸發的特定 canvas 中的 JavaScript 函數
+			PlayerAddInventory("Armbinder", 10);
+			PlayerAddInventory("BallGag", 10);
+			PlayerAddInventory("Cuffs", 10);
+			PlayerAddInventory("ChastityBelt", 10);
+			PlayerAddInventory("ClothGag", 10);
+			PlayerAddInventory("CuffsKey", 10);
+			PlayerAddInventory("Collar", 10);
+			PlayerAddInventory("Crop", 10);
+			PlayerAddInventory("Rope", 10);
+			PlayerAddInventory("SleepingPill", 10);
+			PlayerAddInventory("TapeGag", 10);
+			PlayerAddInventory("VibratingEgg", 10);
+			PlayerAddInventory("PantieGag", 10);
+            DynamicFunction(CurrentChapter + "_" + CurrentScreen + "_SpecificFunction()");
+        }
+function triggerCanvasFunction3() {
+            // 在這裡呼叫您想觸發的特定 canvas 中的 JavaScript 函數
+			ActorChangeAttitude(1, 0)
+            DynamicFunction(CurrentChapter + "_" + CurrentScreen + "_SpecificFunction()");
+        }
+		function triggerCanvasFunction4() {
+            // 在這裡呼叫您想觸發的特定 canvas 中的 JavaScript 函數
+			ActorChangeAttitude(-1, 0)
+            DynamicFunction(CurrentChapter + "_" + CurrentScreen + "_SpecificFunction()");
+        }
+		function triggerCanvasFunction5() {
+            // 在這裡呼叫您想觸發的特定 canvas 中的 JavaScript 函數
+			ActorChangeAttitude(0, 1)
+            DynamicFunction(CurrentChapter + "_" + CurrentScreen + "_SpecificFunction()");
+        }
+		function triggerCanvasFunction6() {
+            // 在這裡呼叫您想觸發的特定 canvas 中的 JavaScript 函數
+			ActorChangeAttitude(0, -1)
+            DynamicFunction(CurrentChapter + "_" + CurrentScreen + "_SpecificFunction()");
+        }
+		function triggerCanvasFunction7() {
+            // 在這裡呼叫您想觸發的特定 canvas 中的 JavaScript 函數
+			CheatTime(900000)
+            DynamicFunction(CurrentChapter + "_" + CurrentScreen + "_SpecificFunction()");
+        }
+		function triggerCanvasFunction8() {
+            // 在這裡呼叫您想觸發的特定 canvas 中的 JavaScript 函數
+			CheatTime(-900000)
+            DynamicFunction(CurrentChapter + "_" + CurrentScreen + "_SpecificFunction()");
+        }		
 
 function stopClickEvent(event) {
     event.stopPropagation();
     canvasClickable = false;
 }
-
 function enableCanvasClick() {
     canvasClickable = true;
 }
@@ -280,9 +326,14 @@ function TouchEnd(event) {
 
 <body style="padding:0px; margin:0px; margin-top:1px;">
 	<div>
-        <input type="text" id="inputBox" />
-        <button onclick="confirmInput()">確認</button>
-		<button onclick="triggerCanvasFunction()">test</button>
+        <button onclick="triggerCanvasFunction()">skill</button>
+        <button onclick="triggerCanvasFunction2()">tool</button>
+		<button onclick="triggerCanvasFunction3()">love+</button>
+		<button onclick="triggerCanvasFunction4()">love-</button>
+		<button onclick="triggerCanvasFunction5()">dom+</button>
+		<button onclick="triggerCanvasFunction6()">sub+</button>
+		<button onclick="triggerCanvasFunction7()">T-</button>
+		<button onclick="triggerCanvasFunction8()">T+</button>
     </div>
     <canvas id="MainCanvas" width="1200" height="675" onClick="if(canvasClickable) Click(event);" onTouchStart="if(canvasClickable) Touch(event);" onTouchEnd="if(canvasClickable) TouchEnd(event);" onMouseMove="MouseMove(event);" onMouseLeave="LoseFocus(event);" style="border:1px solid #000000; display:block; margin:0px; outline:none;"></canvas>
 </body>
