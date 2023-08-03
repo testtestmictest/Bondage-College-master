@@ -253,6 +253,15 @@ function confirmInput() {
         DynamicFunction(CurrentChapter + "_" + CurrentScreen + "_KeyDown()");
     }
 }
+function triggerCanvasFunction() {
+            // 在這裡呼叫您想觸發的特定 canvas 中的 JavaScript 函數
+			PlayerAddSkill("Arts", 10)
+			PlayerAddSkill("Fighting", 10)
+			PlayerAddSkill("RopeMastery", 10)
+			PlayerAddSkill("Seduction", 10)
+			PlayerAddSkill("Sports", 10)
+            DynamicFunction(CurrentChapter + "_" + CurrentScreen + "_SpecificFunction()");
+        }
 
 function stopClickEvent(event) {
     event.stopPropagation();
@@ -273,6 +282,7 @@ function TouchEnd(event) {
 	<div>
         <input type="text" id="inputBox" />
         <button onclick="confirmInput()">確認</button>
+		<button onclick="triggerCanvasFunction()">test</button>
     </div>
     <canvas id="MainCanvas" width="1200" height="675" onClick="if(canvasClickable) Click(event);" onTouchStart="if(canvasClickable) Touch(event);" onTouchEnd="if(canvasClickable) TouchEnd(event);" onMouseMove="MouseMove(event);" onMouseLeave="LoseFocus(event);" style="border:1px solid #000000; display:block; margin:0px; outline:none;"></canvas>
 </body>
